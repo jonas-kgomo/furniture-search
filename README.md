@@ -1,8 +1,11 @@
 
 
-> This project is for Fabelio Furniture prototype
+# This project is for [Fabelio](https://fabelio.com) Furniture prototype
 
-## Available Scripts
+>  This app currently fethces data from a non-secure source as an API
+    You will get such an error: 
+    
+`The page is loaded over HTTPS, but requested an insecure resource 'http://www.mocky.io/v2/5c9105cb330000112b649af8'. This request has been blocked; the content must be served over HTTPS.`
 
 In the project directory, you can run:
 
@@ -45,15 +48,12 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Divider
+## Design 
+
+we used semantic ui for this demo
 
 https://react.semantic-ui.com/elements/divider/
 
-
-use coloured cards 
-```
-Colored
-A card can specify a color.
 ```
 ## API -- GraphQL
 
@@ -64,6 +64,7 @@ name, description : string
 furniture_style  : `array` ... ["Classic", "Midcentury", "Scandinavian", "Modern", "Contemporary"]
 
 > tagged 
+
 https://react.semantic-ui.com/elements/label/
 
 
