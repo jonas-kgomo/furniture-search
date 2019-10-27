@@ -7,31 +7,13 @@
     
 `The page is loaded over HTTPS, but requested an insecure resource 'http://www.mocky.io/v2/5c9105cb330000112b649af8'. This request has been blocked; the content must be served over HTTPS.`
 
-In the project directory, you can run:
+This can be solved by clicking on `load unsafe script`
 
-### `yarn start`
+![img](https://i.ibb.co/60ySYYD/w-CScu-CITEu.png) 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Normal display like this
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+![img](https://i.ibb.co/L0mYh0Z/chrome-T3-WXur-Sk2g.png)
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
