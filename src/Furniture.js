@@ -5,15 +5,17 @@ import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
 
 class Furniture extends Component {
    
-
+    
     state = {
         contacts: [],
-        loading: true
+        loading: true,
     };
+
+
+
 // asynchrounous 
   async  componentDidMount() {
       
-      //http://jsonplaceholder.typicode.com/users
         fetch('http://www.mocky.io/v2/5c9105cb330000112b649af8')
             .then(res => res.json())
             .then((data) => {
@@ -21,8 +23,11 @@ class Furniture extends Component {
             })
             .catch(console.log)
     }
+   
+  
 
     render() {
+      
         return (
             <div>
                 {this.state.loading ? (
@@ -35,7 +40,8 @@ class Furniture extends Component {
                 </Segment>
                 </div>
                 ) : (
-                <div>
+              
+              <div>
                     <Contacts  contacts={this.state.contacts} />
                </div>
         )}

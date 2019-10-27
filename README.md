@@ -48,3 +48,29 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Divider
 
 https://react.semantic-ui.com/elements/divider/
+
+
+use coloured cards 
+```
+Colored
+A card can specify a color.
+```
+## API -- GraphQL
+
+
+name, description : string
+
+
+furniture_style  : `array` ... ["Classic", "Midcentury", "Scandinavian", "Modern", "Contemporary"]
+
+> tagged 
+https://react.semantic-ui.com/elements/label/
+
+
+delivery_time ( 1 <days < 31) 
+price  ==> int
+
+
+TODO 
+
+-  price tag  `tag group` 
