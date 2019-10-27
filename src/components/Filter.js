@@ -18,15 +18,24 @@ const DropdownExampleDivider = () => (
       <Dropdown.Divider  />
       <Dropdown.Item 
         label={{ color: 'red', empty: true, circular: true }}
-        text='Important'
+        text='Classic'
       />
       <Dropdown.Item
         label={{ color: 'blue', empty: true, circular: true }}
-        text='Announcement'
+        text='Midcentury'
       />
       <Dropdown.Item
-        label={{ color: 'black', empty: true, circular: true }}
-        text='Discussion'
+        label={{ color: 'pink', empty: true, circular: true }}
+        text='Scandinavian'
+      />
+       <Dropdown.Item
+        label={{ color: 'yellow', empty: true, circular: true }}
+        text='Modern'
+      />
+      
+      <Dropdown.Item
+        label={{ color: 'teal', empty: true, circular: true }}
+        text='Contemporary'
       />
     </Dropdown.Menu>
 
