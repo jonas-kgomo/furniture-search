@@ -37,6 +37,13 @@
   color: dimgray; 
 }
 
+.footer {
+  background-color: black;
+  color: #e9a30d;
+  justify-content: end;
+  
+}
+
 .items-grid {
   margin: 2px;
   font-size: 10px;
