@@ -31,7 +31,7 @@ class Furniture extends Component {
         return (
             <div>
                 {this.state.loading ? (
-                <div> Load 
+                <div>  
                 <Segment>
                         <Dimmer active>
                          <Loader indeterminate>Fetching 🪑 Furniture </Loader>
