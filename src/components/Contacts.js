@@ -16,7 +16,7 @@ import '../App.css';
                 <h5 class="card-title">{products.name}   <Icon name='tags'color="grey" size="small" /></h5> 
                   <div id="descript">{products.description}</div>
                   
-                  <h6 class="card-subtitle mb-2 text-muted">{products.furniture_styles}</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">{products.furniture_styles[0]}</h6>
                    
               
                  <div className="items-grid">
