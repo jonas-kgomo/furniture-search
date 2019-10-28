@@ -41,7 +41,7 @@
   background-color: black;
   color: #e9a30d;
   justify-content: end;
-  
+  flex-shrink: 0; 
 }
 
 .items-grid {
