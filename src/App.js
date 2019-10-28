@@ -34,11 +34,11 @@ function App() {
      
      </div>
      <div className="footer">
-      <a href="https://github.com/Semantic-Org/Semantic-UI-React" target="_blank" class="ui button"><i class="github icon"></i>Visit React Repo</a>
+      <a href="https://github.com/jonas-kgomo/furniture-search" target="_blank" class="ui button"><i class="github icon"></i>Visit React Repo</a>
      
 
       <Message Compact floating size="small">
-        You will create a single page application to search and filter furniture products.
+        A single page application to search and filter furniture products.
        </Message>
       </div> 
     
